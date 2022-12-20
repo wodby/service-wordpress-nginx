@@ -1,0 +1,25 @@
+name: wordpress-nginx
+type: service
+from: php-nginx
+title: Nginx (WordPress)
+
+update: auto
+    
+labels:
+- wordpress
+
+settings:
+- name: docroot
+  title: Nginx docroot
+  from: backend
+  var: DOCROOT_SUBDIR
+
+volumes:
+- name: files
+  from: backend
+  title: Files
+  path: /mnt/files
+
+env:
+- name: NGINX_VHOST_PRESET
+  value: wordpress

@@ -1,0 +1,12 @@
+ARG WODBY_BASE_IMAGE
+FROM ${WODBY_BASE_IMAGE}
+
+ENV NGINX_VHOST_PRESET wordpress
+
+ARG COPY_FROM
+ARG COPY_TO
+COPY --chown=wodby:wodby ${COPY_FROM} ${COPY_TO}
+
+ARG DOCROOT_SUBDIR
+
+RUN make init -f /usr/local/bin/actions.mk

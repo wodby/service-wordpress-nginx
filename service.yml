@@ -15,9 +15,9 @@ settings:
   var: DOCROOT_SUBDIR
 
 volumes:
-- name: files
+- name: wp-content
   from: backend
-  title: Files
+  title: WP content
   path: /mnt/files
 
 env:

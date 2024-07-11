@@ -8,6 +8,9 @@ update: auto
 labels:
 - wordpress
 
+build:
+  dockerfile: Dockerfile
+
 settings:
 - name: docroot
   title: Nginx docroot

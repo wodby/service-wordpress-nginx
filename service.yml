@@ -11,6 +11,12 @@ labels:
 build:
   dockerfile: Dockerfile
 
+configs:
+- name: preset
+  title: WordPress preset
+  filepath: /etc/gotpl/preset/wordpress.conf.tmpl
+  config: preset.conf.tmpl
+
 settings:
 - name: docroot
   title: Nginx docroot

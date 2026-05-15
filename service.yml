@@ -22,6 +22,7 @@ settings:
   title: Nginx docroot
   from: backend
   var: DOCROOT_SUBDIR
+  build: true
 
 volumes:
 - name: wp-content

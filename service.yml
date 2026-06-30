@@ -1,6 +1,7 @@
 name: wordpress-nginx
 type: service
 from: php-nginx
+fromVersion: "^1.0.0"
 title: Nginx (WordPress)
 
     

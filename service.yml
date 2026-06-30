@@ -3,7 +3,6 @@ type: service
 from: php-nginx
 title: Nginx (WordPress)
 
-update: auto
     
 labels:
 - wordpress

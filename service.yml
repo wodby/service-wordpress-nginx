@@ -2,10 +2,10 @@ name: wordpress-nginx
 type: service
 from: php-nginx
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.0.0"
+fromVersion: "1.0.1"
 title: Nginx (WordPress)
 
-    
+
 labels:
 - wordpress
 

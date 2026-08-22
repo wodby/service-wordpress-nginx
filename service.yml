@@ -35,5 +35,5 @@ volumes:
 env:
 - name: NGINX_VHOST_PRESET
   value: wordpress
-- name: WODBY_INIT_ACTION
+- name: WODBY2_SERVICE_INIT_ACTION
   value: init

@@ -19,7 +19,7 @@ configuration for Nginx (WordPress).
 | --- | --- |
 | Service name | `wordpress-nginx` |
 | Type | Application service |
-| Inherits from | [`php-nginx`](https://github.com/wodby/service-php-nginx) with version constraint `^1.0.0` |
+| Inherits from | [`php-nginx`](https://github.com/wodby/service-php-nginx) with version constraint `^2.0.0` |
 | Volumes | WP content (`wp-content`) |
 | Application build | Dockerfile: `Dockerfile` |
 | Configuration | 1 settings, 1 configuration files |

@@ -15,7 +15,7 @@ build:
 configs:
 - name: preset
   title: WordPress preset
-  filepath: /etc/gotpl/preset/wordpress.conf.tmpl
+  filepath: /etc/gotpl/presets/wordpress.conf.tmpl
   default:
     source: image
     filepath: /etc/gotpl/presets/wordpress.conf.tmpl
